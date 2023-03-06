@@ -1,0 +1,17 @@
+.container{
+
+    align-self: center;
+    border: solid 10px black;
+}
+
+.name{
+    text-align: center;
+}
+
+.form-group{
+
+    color: black;
+    margin-left: 40dp;
+    align-items: center;
+    text-align: center;
+}
