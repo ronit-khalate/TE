@@ -32,6 +32,7 @@ public class calculateMean {
         {
             System.out.println("NA"); e.printStackTrace();
         }
+        br.close();
     }
     catch (Exception e)
     {
@@ -42,4 +43,5 @@ public class calculateMean {
     System.out.println("mean of Dew point="+sum2/count);
     System.out.println("mean of Wind ="+sum3/count);
     }
+    
 }

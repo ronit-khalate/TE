@@ -11,10 +11,12 @@ public class readCsv {
             while((line = br.readLine()) !=null){
             String [] country = line.split(splitBy);
             System.out.println("Country [Name= "+country[0] + ", Tempreture=" +country[1] +"Dew_point="+country[2] + ", Wind=" + country[3] );
-             }      
+             }  
+             br.close();    
         }
         catch (IOException e){
         e.printStackTrace();
         }
        
+}
 }
